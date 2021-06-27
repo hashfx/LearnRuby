@@ -46,7 +46,7 @@ end
 
 # object
 cat = Animal.new
-cat.set_name("Meeowth")
+cat.set_name("Catty")
 puts cat.get_name
 puts cat.name
 
@@ -69,13 +69,13 @@ rover = Dog.new
 rover.name = "Rover"
 puts rover.name
 
-class GermanShephard < Dog
+class GermanShepherd < Dog
     def Bark
         return "Loud Bark"
     end
 end
 
-max = GermanShephard.new
+max = GermanShepherd.new
 max.name = "Max"
 printf "%s goes %s \n", max.name, max.bark()
 

@@ -1,4 +1,5 @@
-=begin keywords
+=begin 
+Ruby keywords
 BEGIN	
 do
 next	
@@ -83,8 +84,5 @@ PI = 3.145  # constant can not be reassigned value
 puts PI  # Latest value of constant is printed :: 3.145
 
 
-Remember in Ruby, classes and methods may be considered constants too.
-
-
-
+# Remember in Ruby, classes and methods may be considered constants too.
 
